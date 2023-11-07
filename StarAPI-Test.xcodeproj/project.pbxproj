@@ -19,6 +19,12 @@
 		3C7573E82AF9E818000A0AE2 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573E72AF9E818000A0AE2 /* Rocket.swift */; };
 		3C7573EA2AF9E828000A0AE2 /* LaunchSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573E92AF9E828000A0AE2 /* LaunchSite.swift */; };
 		3C7573EC2AF9E834000A0AE2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573EB2AF9E834000A0AE2 /* Image.swift */; };
+		3C7573EE2AF9E92A000A0AE2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573ED2AF9E92A000A0AE2 /* APIError.swift */; };
+		3C7573F02AF9ED92000A0AE2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573EF2AF9ED92000A0AE2 /* APIService.swift */; };
+		3C7573F22AF9EDE4000A0AE2 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F12AF9EDE4000A0AE2 /* MockAPIService.swift */; };
+		3C7573F42AF9EE13000A0AE2 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F32AF9EE13000A0AE2 /* ServiceProtocol.swift */; };
+		3C7573F62AF9EE44000A0AE2 /* DownloadAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F52AF9EE44000A0AE2 /* DownloadAPIClient.swift */; };
+		3C7573F82AF9EED0000A0AE2 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F72AF9EED0000A0AE2 /* ImageLoadingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		3C7573E72AF9E818000A0AE2 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
 		3C7573E92AF9E828000A0AE2 /* LaunchSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSite.swift; sourceTree = "<group>"; };
 		3C7573EB2AF9E834000A0AE2 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		3C7573ED2AF9E92A000A0AE2 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		3C7573EF2AF9ED92000A0AE2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		3C7573F12AF9EDE4000A0AE2 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		3C7573F32AF9EE13000A0AE2 /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		3C7573F52AF9EE44000A0AE2 /* DownloadAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAPIClient.swift; sourceTree = "<group>"; };
+		3C7573F72AF9EED0000A0AE2 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,7 @@
 		3C7573DD2AF9E703000A0AE2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				3C7573ED2AF9E92A000A0AE2 /* APIError.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -161,6 +174,10 @@
 		3C7573DF2AF9E71E000A0AE2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3C7573EF2AF9ED92000A0AE2 /* APIService.swift */,
+				3C7573F12AF9EDE4000A0AE2 /* MockAPIService.swift */,
+				3C7573F32AF9EE13000A0AE2 /* ServiceProtocol.swift */,
+				3C7573F52AF9EE44000A0AE2 /* DownloadAPIClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -168,6 +185,7 @@
 		3C7573E02AF9E72D000A0AE2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3C7573F72AF9EED0000A0AE2 /* ImageLoadingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -323,10 +341,16 @@
 				3C7573EC2AF9E834000A0AE2 /* Image.swift in Sources */,
 				3C7573B62AF9E390000A0AE2 /* ContentView.swift in Sources */,
 				3C7573B42AF9E390000A0AE2 /* StarAPI_TestApp.swift in Sources */,
+				3C7573F82AF9EED0000A0AE2 /* ImageLoadingViewModel.swift in Sources */,
 				3C7573E62AF9E80D000A0AE2 /* Launch.swift in Sources */,
 				3C7573E82AF9E818000A0AE2 /* Rocket.swift in Sources */,
+				3C7573EE2AF9E92A000A0AE2 /* APIError.swift in Sources */,
+				3C7573F22AF9EDE4000A0AE2 /* MockAPIService.swift in Sources */,
 				3C7573E42AF9E7C8000A0AE2 /* Constants.swift in Sources */,
+				3C7573F02AF9ED92000A0AE2 /* APIService.swift in Sources */,
 				3C7573EA2AF9E828000A0AE2 /* LaunchSite.swift in Sources */,
+				3C7573F42AF9EE13000A0AE2 /* ServiceProtocol.swift in Sources */,
+				3C7573F62AF9EE44000A0AE2 /* DownloadAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
