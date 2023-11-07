@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var launchFetcherViewModel = LaunchFetcherViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if launchFetcherViewModel.isLoading {
+            LoadingView()
+        } else if launchFetcherViewModel.errorMessage != nil {
+            ErrorView(launchFetcherViewModel: launchFetcherViewModel)
+        } else {
+            LaunchListView(launches: launchFetcherViewModel.launches)
         }
-        .padding()
     }
 }
 

@@ -30,7 +30,6 @@ struct APIService: ServiceProtocol {
                 do {
                     let launches = try decoder.decode([Launch].self, from: data)
                     completion(Result.success(launches))
-                    print(launches)
                 } catch {
                     completion(Result.failure(APIError.parsing(error as? DecodingError)))
                 }

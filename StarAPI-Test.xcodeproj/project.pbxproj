@@ -25,6 +25,13 @@
 		3C7573F42AF9EE13000A0AE2 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F32AF9EE13000A0AE2 /* ServiceProtocol.swift */; };
 		3C7573F62AF9EE44000A0AE2 /* DownloadAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F52AF9EE44000A0AE2 /* DownloadAPIClient.swift */; };
 		3C7573F82AF9EED0000A0AE2 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F72AF9EED0000A0AE2 /* ImageLoadingViewModel.swift */; };
+		3C7573FA2AF9EFDC000A0AE2 /* LaunchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573F92AF9EFDC000A0AE2 /* LaunchListView.swift */; };
+		3C7573FC2AF9F035000A0AE2 /* LaunchFetcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573FB2AF9F035000A0AE2 /* LaunchFetcherViewModel.swift */; };
+		3C7573FE2AF9F12D000A0AE2 /* LaunchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573FD2AF9F12D000A0AE2 /* LaunchItem.swift */; };
+		3C7574002AF9F156000A0AE2 /* LaunchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7573FF2AF9F156000A0AE2 /* LaunchDetailView.swift */; };
+		3C7574022AF9F188000A0AE2 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7574012AF9F188000A0AE2 /* ErrorView.swift */; };
+		3C7574042AF9F1A5000A0AE2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7574032AF9F1A5000A0AE2 /* LoadingView.swift */; };
+		3C7574062AF9F1C8000A0AE2 /* ImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7574052AF9F1C8000A0AE2 /* ImageLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,13 @@
 		3C7573F32AF9EE13000A0AE2 /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
 		3C7573F52AF9EE44000A0AE2 /* DownloadAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAPIClient.swift; sourceTree = "<group>"; };
 		3C7573F72AF9EED0000A0AE2 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		3C7573F92AF9EFDC000A0AE2 /* LaunchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchListView.swift; sourceTree = "<group>"; };
+		3C7573FB2AF9F035000A0AE2 /* LaunchFetcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFetcherViewModel.swift; sourceTree = "<group>"; };
+		3C7573FD2AF9F12D000A0AE2 /* LaunchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchItem.swift; sourceTree = "<group>"; };
+		3C7573FF2AF9F156000A0AE2 /* LaunchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailView.swift; sourceTree = "<group>"; };
+		3C7574012AF9F188000A0AE2 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		3C7574032AF9F1A5000A0AE2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3C7574052AF9F1C8000A0AE2 /* ImageLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				3C7573F72AF9EED0000A0AE2 /* ImageLoadingViewModel.swift */,
+				3C7573FB2AF9F035000A0AE2 /* LaunchFetcherViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -193,6 +208,12 @@
 		3C7573E12AF9E73A000A0AE2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C7573F92AF9EFDC000A0AE2 /* LaunchListView.swift */,
+				3C7573FD2AF9F12D000A0AE2 /* LaunchItem.swift */,
+				3C7573FF2AF9F156000A0AE2 /* LaunchDetailView.swift */,
+				3C7574012AF9F188000A0AE2 /* ErrorView.swift */,
+				3C7574032AF9F1A5000A0AE2 /* LoadingView.swift */,
+				3C7574052AF9F1C8000A0AE2 /* ImageLoadingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,8 +363,13 @@
 				3C7573B62AF9E390000A0AE2 /* ContentView.swift in Sources */,
 				3C7573B42AF9E390000A0AE2 /* StarAPI_TestApp.swift in Sources */,
 				3C7573F82AF9EED0000A0AE2 /* ImageLoadingViewModel.swift in Sources */,
+				3C7574002AF9F156000A0AE2 /* LaunchDetailView.swift in Sources */,
 				3C7573E62AF9E80D000A0AE2 /* Launch.swift in Sources */,
+				3C7573FE2AF9F12D000A0AE2 /* LaunchItem.swift in Sources */,
+				3C7574022AF9F188000A0AE2 /* ErrorView.swift in Sources */,
 				3C7573E82AF9E818000A0AE2 /* Rocket.swift in Sources */,
+				3C7574062AF9F1C8000A0AE2 /* ImageLoadingView.swift in Sources */,
+				3C7573FC2AF9F035000A0AE2 /* LaunchFetcherViewModel.swift in Sources */,
 				3C7573EE2AF9E92A000A0AE2 /* APIError.swift in Sources */,
 				3C7573F22AF9EDE4000A0AE2 /* MockAPIService.swift in Sources */,
 				3C7573E42AF9E7C8000A0AE2 /* Constants.swift in Sources */,
@@ -351,6 +377,8 @@
 				3C7573EA2AF9E828000A0AE2 /* LaunchSite.swift in Sources */,
 				3C7573F42AF9EE13000A0AE2 /* ServiceProtocol.swift in Sources */,
 				3C7573F62AF9EE44000A0AE2 /* DownloadAPIClient.swift in Sources */,
+				3C7574042AF9F1A5000A0AE2 /* LoadingView.swift in Sources */,
+				3C7573FA2AF9EFDC000A0AE2 /* LaunchListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
