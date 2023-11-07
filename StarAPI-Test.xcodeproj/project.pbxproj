@@ -94,6 +94,12 @@
 		3C7573B22AF9E390000A0AE2 /* StarAPI-Test */ = {
 			isa = PBXGroup;
 			children = (
+				3C7573E22AF9E741000A0AE2 /* Model */,
+				3C7573E12AF9E73A000A0AE2 /* View */,
+				3C7573E02AF9E72D000A0AE2 /* ViewModel */,
+				3C7573DF2AF9E71E000A0AE2 /* Services */,
+				3C7573DE2AF9E710000A0AE2 /* Constants */,
+				3C7573DD2AF9E703000A0AE2 /* Helper */,
 				3C7573B32AF9E390000A0AE2 /* StarAPI_TestApp.swift */,
 				3C7573B52AF9E390000A0AE2 /* ContentView.swift */,
 				3C7573B72AF9E391000A0AE2 /* Assets.xcassets */,
@@ -125,6 +131,48 @@
 				3C7573D02AF9E391000A0AE2 /* StarAPI_TestUITestsLaunchTests.swift */,
 			);
 			path = "StarAPI-TestUITests";
+			sourceTree = "<group>";
+		};
+		3C7573DD2AF9E703000A0AE2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3C7573DE2AF9E710000A0AE2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3C7573DF2AF9E71E000A0AE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C7573E02AF9E72D000A0AE2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C7573E12AF9E73A000A0AE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C7573E22AF9E741000A0AE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
